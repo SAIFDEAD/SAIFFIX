@@ -4,7 +4,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://telegra.ph//file/https://telegra.ph/file/a131993b0f1e8517eacb2.mp4" width="500">
+  <img src="https://telegra.ph/file/a131993b0f1e8517eacb2.mp4" width="500">
 </p>
 
 <p align="center">
@@ -36,5 +36,5 @@
 
 
 
-[𝐃𝙸𝙲𝚃𝙰𝚃𝙾𝚁](https://t.me/SAIF_DICTATOR
-[𝗚ιтнυв](https://github.com/SAIFDEAD
+"[𝐃𝙸𝙲𝚃𝙰𝚃𝙾𝚁](https://t.me/SAIF_DICTATOR"
+"[𝗚ιтнυв](https://github.com/SAIFDEAD"
