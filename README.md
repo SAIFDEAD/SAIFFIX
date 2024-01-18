@@ -3,13 +3,13 @@
     ─「 ❍⏤͟͞●𝐍αяʋтσ ✘ 𝐑σвσт●⏤͟͞ 🫧 」─
 </h3>
 
-<vid align="center">
+<p align="center">
   <img src="https://telegra.ph//file/https://telegra.ph/file/a131993b0f1e8517eacb2.mp4" width="500">
-</vid>
+</p>
 
-<div align="center">
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=DC143C&center=true&lines=──+「+❍⏤͟͞●+𝐍αяʋтσ+✘+𝐑σвσт+●⏤͟͞ +🫧+」+──;𝙰𝚗+𝙰𝚍𝚟𝚊𝚗𝚌𝚎𝚍+𝙶𝚛𝚘𝚞𝚙𝚜+𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝'𝚜+𝙱𝚘𝚝.&width=600&height=180">
-</div>
+</p>
 
 
 
@@ -36,4 +36,5 @@
 
 
 
-[CREDIT])
+[𝐃𝙸𝙲𝚃𝙰𝚃𝙾𝚁](https://t.me/SAIF_DICTATOR
+[𝗚ιтнυв](https://github.com/SAIFDEAD
