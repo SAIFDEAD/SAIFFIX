@@ -30,10 +30,13 @@
 
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=SAIFDEAD&repo=NARUTO-ROBOT&theme=flag-india)
-[![GIF](https://github.com/SAIFDEAD/NARUTO-ROBOT/blob/main/SAIFDEAD.gif)](https://github.com/SAIFDEAD)
-   [![𝐃ιcтαтσя](https://github-stats-alpha.vercel.app/api?username=SAIFDEAD "SAIF")](https://github-stats-alpha.vercel.app/api?username=SAIFDEAD   "SAIF")
-                  
+[![GIF](https://github.com/SAIFDEAD/NARUTO-ROBOT/blob/main/SAIFDEAD.gif)]
+
+ ㅤ ㅤ ㅤㅤ
 
 
+# My Stats☠︎︎
+![ GitHub stats](https://github-readme-stats.vercel.app/api?username=SAIFDEAD/NARUTO-ROBOT&show_icons=true&theme=radical)
 
-
+# Contact ☠︎︎
+<a href="https://t.me/SAIF_DICTATOR"><img title="𝐃ιcтαтσя" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
