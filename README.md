@@ -42,4 +42,16 @@
 <a href="https://t.me/SAIFHELPGC"><img title="𝐃ιcтαтσя" src="https://img.shields.io/badge/𝙶𝚁𝙾𝚄𝙿-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 
 
-<a href="https://t.me/SAIFALLBOT"><img title="𝐃ιcтαтσя" src="https://img.shields.io/badge/𝙰𝙻𝙻+𝙰𝙱𝙾𝚄𝚃-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://t.me/SAIFALLBOT"><img title="𝐃ιcтαтσя" src="https://img.shields.io/badge/𝙰𝙱𝙾𝚄𝚃-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+
+
+
+   [![⚡𝙽𝙰𝚁𝚄𝚃𝙾⚡](https://github-stats-alpha.vercel.app/api?username=SAIFDEAD "SAIF")](https://github-stats-alpha.vercel.app/api?username=SAIFDEAD   "NARUTO-ROBOT")
+                  
+
+
+
+
+<p><img width="494" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SAIFDEAD&show_icons=true&locale=en&layout=compact" alt="SAIFDEAD" /></p>
+
+
