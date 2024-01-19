@@ -23,7 +23,7 @@
 
 
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/SAIFDEAD/NARUTO-ROBOT"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="300" height="138.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/SAIFDEAD/NARUTO-ROBOT"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="300" height="40.0"/></a></p>
 
 
 
