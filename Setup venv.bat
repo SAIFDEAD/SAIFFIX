@@ -3,4 +3,4 @@ TITLE Setting up virtual env
 py -m venv env && env\scripts\activate.bat && pip install -r requirements.txt
 
 :: Note to rerun the requirements.txt in case you ever add a module.
-:: Running this multiple time will not make a mess of your setup, dont worry about that .
+:: Running this multiple time will not make a mess of your setup, dont worry about that bit .
