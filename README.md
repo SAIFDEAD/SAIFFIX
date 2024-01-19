@@ -29,3 +29,11 @@
 
 
 
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=SAIFDEAD&repo=NARUTO-ROBOT&theme=flag-india)
+[![GIF](https://github.com/SAIFDEAD/NARUTO-ROBOT/blob/main/SAIFDEAD.gif)](https://github.com/SAIFDEAD)
+   [![𝐃ιcтαтσя](https://github-stats-alpha.vercel.app/api?username=SAIFDEAD "SAIF")](https://github-stats-alpha.vercel.app/api?username=SAIFDEAD   "SAIF")
+                  
+
+
+
+
