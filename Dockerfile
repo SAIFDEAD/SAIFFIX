@@ -64,7 +64,7 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-RUN git clone https://github.com/DAXXTEAM/YumikooRobot /root/DAXXROBOT
+RUN git clone https://github.com/SAIFDEAD/NARUTO-ROBOT /root/DAXXROBOT
 WORKDIR /root/DAXXROBOT
 
 #Copy config file to /root/DAXXROBOT/DAXXROBOT
