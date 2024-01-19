@@ -36,7 +36,7 @@
 
 
 # My Stats☠︎︎
-![ GitHub stats](https://github-readme-stats.vercel.app/api?username=SAIFDEAD/NARUTO-ROBOT&show_icons=true&theme=radical)
+![ GitHub stats](https://github-readme-stats.vercel.app/api?username=SAIFDEAD&show_icons=true&theme=radical)
 
 # Contact ☠︎︎
-<a href="https://t.me/SAIF_DICTATOR"><img title="𝐃ιcтαтσя" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://t.me/SAIF_DICTATOR"><img title="𝐃ιcтαтσя" src="https://img.shields.io/badge/𝐃ιcтaтor-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
