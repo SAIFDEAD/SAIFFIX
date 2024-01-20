@@ -91,8 +91,8 @@ def mukesh(update: Update, context: CallbackContext):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data="add_chat({})"),
-                InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ", callback_data="rm_chat({})"),
+                InlineKeyboardButton(text="𝐄ɴᴀʙʟᴇ", callback_data="add_chat({})"),
+                InlineKeyboardButton(text="𝐃ɪsᴀʙʟᴇ", callback_data="rm_chat({})"),
             ],
         ]
     )
@@ -128,7 +128,7 @@ def chatbot(update: Update, context: CallbackContext):
         if not mukesh_message(context, message):
             return
         bot.send_chat_action(chat_id, action="typing")
-        url=f"https://fallenxbot.vercel.app/api/apikey={CHATBOT_API}/group-controller/mukesh/message={message.text}"
+        url=f"https://fallenxbot.vercel.app/api/apikey=6380230110-fallen-zmiy44yimz/group-controller/mukesh/message={message.text}"
         response = requests.get(url)
         out=response.json()
         reply=out["reply"]
@@ -140,7 +140,7 @@ def chatbot(update: Update, context: CallbackContext):
 
 
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", mukesh, run_async=True)
+CHATBOTK_HANDLER = CommandHandler("chatbot", run_async=True)
 ADD_CHAT_HANDLER = CallbackQueryHandler(mukeshadd, pattern=r"add_chat", run_async=True)
 RM_CHAT_HANDLER = CallbackQueryHandler(mukeshrm, pattern=r"rm_chat", run_async=True)
 CHATBOT_HANDLER = MessageHandler(
