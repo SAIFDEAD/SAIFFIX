@@ -51,10 +51,6 @@ if ENV:
     START_IMG = os.environ.get(
         "START_IMG", ""
     )
-    IMG = os.environ.get("IMG", "https://telegra.ph/file/b5eb69c60abfa61e13617jpg", "https://telegra.ph/file/b5eb69c60abfa61e13617.jpg", "https://telegra.ph/file/376209c1af1c134ae3050.jpg"
-    )
-    EMOJI = os.environ.get("EMOJI", "❤", "🎭", "💐",
-    )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "SAIFHELPGC")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
@@ -116,8 +112,6 @@ else:
     TOKEN = Config.TOKEN
     TIME_API_KEY = Config.TIME_API_KEY
     WORKERS = Config.WORKERS
-    IMG = Config.IMG
-    EMOJI = Config.EMOJI
 
     try:
         OWNER_ID = int(Config.OWNER_ID)
@@ -166,7 +160,7 @@ pbot = Client("DAXXROBOT", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN,in_
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
-print("[INFO]: 𝙶𝚎𝚝𝚝𝚒𝚗𝚐 𝙱𝚘𝚝 𝙸𝚗𝚏𝚘..💖.")
+print("[INFO]: loadιng narυтo rѲβѲτ мodυleѕ 💖.")
 BOT_ID = dispatcher.bot.id
 BOT_NAME = dispatcher.bot.first_name
 BOT_USERNAME = dispatcher.bot.username
