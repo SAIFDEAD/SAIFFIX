@@ -227,14 +227,13 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.4)
             lol.delete()
             
-            update.effective_message.random.choice(IMG,PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
+            update.effective_message.reply_photo(photo=random.choice(IMG),PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
             )
     else:
-        update.effective_message.random.choice(
-            IMG,
+        update.effective_message.reply_photo(photo=random.choice(IMG),
             caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
                 uptime
             ),
