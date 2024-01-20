@@ -56,4 +56,4 @@
 
 
        
-<h1 align="center"><img src="./DAXXROBOT/naruto.gif" /></h1>
+<h1 align="center"><img src="https://graph.org/file/DAXXROBOT/naruto.gif" /></h1>
