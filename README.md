@@ -4,7 +4,7 @@
 </h3>
 
 <p3 align="center">
-  <img src="https://graph.org/file/0bc8bb883ede5374da2ec.jpg"width="500">
+  <img src="https://telegra.ph/file/ee8ac17daa63d59d36e8c.jpg"width="500">
 </h3>
 
 
@@ -53,6 +53,27 @@
 
 
 <p><img width="494" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SAIFDEAD&show_icons=true&locale=en&layout=compact" alt="SAIFDEAD" 
+
+
+
+<p3 align="center">
+  <img src="https://telegra.ph/file/c92b91e44e9174f083448.jpg"width="300">
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
