@@ -52,6 +52,8 @@
 
 
 
-<p><img width="494" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SAIFDEAD&show_icons=true&locale=en&layout=compact" alt="SAIFDEAD" /></p>
+<p><img width="494" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SAIFDEAD&show_icons=true&locale=en&layout=compact" alt="SAIFDEAD" 
 
 
+       
+<h1 align="center"><img src="./DAXXROBOT/naruto.gif" /></h1>
