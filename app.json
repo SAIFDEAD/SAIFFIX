@@ -6,7 +6,8 @@
        "telegram",
        "modular",
        "group",
-       "maneger",
+       "naruto",
+       "manager"
     ],   
  "repository": "https://github.com/SAIFDEAD/NARUTO-ROBOT",
  "stack": "heroku-22",
