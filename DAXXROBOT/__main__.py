@@ -2,6 +2,7 @@ import importlib
 import re
 import time
 import asyncio
+import rendom
 from platform import python_version as y
 from sys import argv
 from pyrogram import __version__ as pyrover
@@ -33,6 +34,8 @@ from DAXXROBOT import (
     LOGGER,
     OWNER_ID,
     START_IMG,
+    IMG,
+    EMOJI,
     SUPPORT_CHAT,
     TOKEN,
     StartTime,
