@@ -569,7 +569,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• 𝐌𝐀𝐃𝐄 𝐁𝐘 •", url="https://t.me/SAIF_DICTATOR"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="daxxsupport")
+                        InlineKeyboardButton(text="• 𝐌𝐀𝐃𝐄 𝐁𝐘 •", url="https://t.me/SAIF_DICTATOR"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", callback_data="SAIFHELPGC")
                     ]
                 ]
             ),
@@ -599,7 +599,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
             
             reply_markup=InlineKeyboardMarkup(
                 [[
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url=f"https://github.com/DAXXTEAM/YumikooRobot")
+        InlineKeyboardButton(text="𝐒ᴏᴜʀᴄᴇ", url=f"https://github.com/SAIFDEAD/SAIFROBOT")
                 ],
                  [
         InlineKeyboardButton(text="🏡", callback_data="daxxback"),
@@ -640,21 +640,21 @@ def Music_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="⍟ ᴀᴅᴍɪɴ ⍟", callback_data="Music_admin"
+                            text="⍟ 𝐀ᴅᴍɪɴ ⍟", callback_data="Music_admin"
                         ),
                         InlineKeyboardButton(
-                            text="⍟ ᴘʟᴀʏ ⍟", callback_data="Music_play"
+                            text="⍟ 𝐏ʟᴀʏ ⍟", callback_data="Music_play"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴏᴛ ⍟", callback_data="Music_bot"),
+                        InlineKeyboardButton(text="⍟ 𝐁ᴏᴛ ⍟", callback_data="Music_bot"),
                         InlineKeyboardButton(
-                            text="⍟ ᴇxᴛʀᴀ ⍟",
+                            text="⍟ 𝐄𝐱ᴛʀᴀ ⍟",
                             callback_data="Music_extra",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help")
                     ],
                 ]
             ),
@@ -968,7 +968,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="sᴇᴛᴛɪɴɢs​",
+                                text="𝐒ᴇᴛᴛɪɴɢs​",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -993,10 +993,10 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 6691393517:
+        if OWNER_ID != 6585111267:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/DAXXTEAM/DAXXROBOT)"
-                f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATE_STRING})",
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/SAIFDEAD/SAIFROBOT)"
+                f"\n\nɪ ᴀᴍ ɴᴀʀᴜᴛᴏ ᴜᴢᴜᴍᴀᴋɪ ʀᴏʙᴏᴛ ᴍᴀᴅᴇ ʙᴜ sᴀɪғ ᴅɪᴄᴛᴀᴛᴏʀ  : [𝐎𝚆𝙽𝙴𝚁]url="tg://user?id{OWNER_ID})",
                 parse_mode=ParseMode.MARKDOWN,
                 
             )
@@ -1044,8 +1044,8 @@ def main():
                 [
                     [
                         InlineKeyboardButton(
-                            text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ➕",
-                            url="https://t.me/YumikooBot?startgroup=true"
+                            text="𝚃𝙾𝚄𝙲𝙷 𝙼𝙴 𝙱𝙰𝙱𝚈",
+                            url="https://t.me/NARUTO_X_ROBOT?startgroup=true"
                             )
                        ]
                 ]
@@ -1058,7 +1058,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ 𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™**
+**𝐌ᴀᴅᴇ 𝐁ʏ**  [𝐃ιcтαтσя](https://t.me/SAIF_DICTATOR)
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
@@ -1122,7 +1122,7 @@ def main():
 
 
 if __name__ == "__main__":
-    LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
+    LOGGER.info("Successfully loaded naruto robot modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     pbot.start()
     main()
