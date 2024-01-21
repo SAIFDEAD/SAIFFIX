@@ -23,12 +23,12 @@
     "API_ID": {
        "description": "𝐆𝐞𝐭 𝐭𝐡𝐢𝐬 𝐯𝐚𝐥𝐮𝐞 𝐟𝐫𝐨𝐦 𝐦𝐲.𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦.𝐨𝐫𝐠/𝐚𝐩𝐩𝐬.",
        "required": true,
-       "value": ""
+       "value": "26468789"
     },
     "API_HASH": {
        "description": "𝐆𝐞𝐭 𝐭𝐡𝐢𝐬 𝐯𝐚𝐥𝐮𝐞 𝐟𝐫𝐨𝐦 my.telegram.org/apps.",
        "required": true,
-       "value": ""
+       "value": "0da550ed2c95f251600e5ee51ff0fe66"
     },
     "ALLOW_EXCL": {
        "description": "𝐒𝐞𝐭 𝐭𝐡𝐢𝐬 𝐭𝐨 𝐓𝐫𝐮𝐞 𝐢𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 ! 𝐭𝐨 𝐛𝐞 𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐩𝐫𝐞𝐟𝐢𝐱 𝐚𝐥𝐨𝐧𝐠 𝐰𝐢𝐭𝐡 /. 𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝𝐞𝐝 𝐢𝐬 𝐓𝐫𝐮𝐞",
@@ -46,22 +46,22 @@
     "EVENT_LOGS": {
        "description": "𝐄𝐯𝐞𝐧𝐭 𝐥𝐨𝐠𝐬 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝐭𝐨 𝐧𝐨𝐭𝐞 𝐝𝐨𝐰𝐧 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐛𝐨𝐭 𝐥𝐞𝐯𝐞𝐥 𝐞𝐯𝐞𝐧𝐭𝐬, 𝐫𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝 𝐭𝐨 𝐦𝐚𝐤𝐞 𝐭𝐡𝐢𝐬 𝐩𝐮𝐛𝐥𝐢𝐜. ex: '-123456'",
        "required": true,
-       "value": ""
+       "value": "-1001945546436"
     },
     "MONGO_DB_URI": {
        "description": "𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐟𝐨𝐫 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧𝐬.",
        "required": true,
-       "value": ""
+       "value": "mongodb+srv://yashsamrat32169:ylWiINR00JzSqwhP@cluster0.j44oov2.mongodb.net/?retryWrites=true&w=majority"
     },
     "CASH_API_KEY": {
         " description": " 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐀𝐏𝐈 𝐤𝐞𝐲 𝐟𝐫𝐨𝐦 https://www.alphavantage.co/support/#api-key",
         "required": false,
-        "value": ""
+        "value": "7NMHW1XVR4AQ"
     },
     "TIME_API_KEY": {
         "description": " 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐀𝐏𝐈 𝐤𝐞𝐲 𝐟𝐫𝐨𝐦 https://timezonedb.com/api",
         "required": false,
-        "value": ""
+        "value": "00K691XBFTZMRVZE"
     },
     "OWNER_ID": {
        "description": "𝐘𝐨𝐮𝐫 𝐮𝐬𝐞𝐫 𝐈𝐃 𝐚𝐬 𝐚𝐧 𝐢𝐧𝐭𝐞𝐠𝐞𝐫.",
@@ -71,7 +71,7 @@
     "START_IMG": {
        "description": "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐩𝐡 𝐥𝐢𝐧𝐤 𝐨𝐟 𝐭𝐡𝐞 𝐢𝐦𝐚𝐠𝐞 𝐰𝐡𝐢𝐜𝐡 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐬𝐡𝐨𝐰𝐧 𝐚𝐭 𝐬𝐭𝐚𝐫𝐭 𝐜𝐨𝐦𝐦𝐚𝐧𝐝.",
        "required": true,
-       "value": "https://telegra.ph/file/6f6e36088ce15a189c400.mp4"
+       "value": "https://telegra.ph/file/ee8ac17daa63d59d36e8c.jpg"
     },
     "SUPPORT_CHAT": {
        "description": "𝐘𝐨𝐮𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭 𝐮𝐬𝐞𝐫𝐧𝐚𝐦𝐞 𝐰𝐡𝐞𝐫𝐞 𝐲𝐨𝐮𝐫 𝐮𝐬𝐞𝐫𝐬 𝐰𝐢𝐥𝐥 𝐠𝐨 𝐚𝐧𝐝 𝐛𝐨𝐭𝐡𝐞𝐫 𝐲𝐨𝐮 𝐰𝐢𝐭𝐡 𝐬𝐡𝐢𝐭 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 - SAIFHELPGC.",
