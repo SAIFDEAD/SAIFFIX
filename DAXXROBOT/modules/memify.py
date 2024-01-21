@@ -63,7 +63,8 @@ async def drawText(image_path, text):
     else:
 
         fnt = "./DAXXROBOT/resources/default.ttf"
-    m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
+   
+        m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
     if ";" in text:
         upper_text, lower_text = text.split(";")
