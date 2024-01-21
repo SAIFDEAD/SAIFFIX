@@ -683,7 +683,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(text=" 𝐁ᴏᴛ ", callback_data="Music_bot"),
                         InlineKeyboardButton(
-                            text="𝐌ᴜsɪᴄ 𝐁ᴏ", url=f"https://t.me/HINATA_M_BOT"
+                            text="𝐌ᴜsɪᴄ 𝐁ᴏᴛ", callback_data"Music_Extra"
                         ),
                     ],
                     [
@@ -775,12 +775,9 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
     elif query.data == "Music_extra":
         query.message.edit_caption(f"*» ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ «*"
             f"""
-/mstart - ꜱᴛᴀʀᴛ ᴛʜᴇ ᴍᴜꜱɪᴄ ʙᴏᴛ.
-/mhelp  - ɢᴇᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ʜᴇʟᴘᴇʀ ᴍᴇɴᴜ ᴡɪᴛʜ ᴅᴇᴛᴀɪʟᴇᴅ ᴇxᴘʟᴀɴᴀᴛɪᴏɴꜱ ᴏғ ᴄᴏᴍᴍᴀɴᴅꜱ.
-/ping- ᴘɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ ᴄʜᴇᴄᴋ ʀᴀᴍ, ᴄᴘᴜ ᴇᴛᴄ ꜱᴛᴀᴛꜱ ᴏғ ʙᴏᴛ.
+𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐮𝐬𝐢𝐜 𝐛𝐨𝐭 :- [𝙼𝚄𝚂𝙸𝙲](https://t.me/HINATA_N_𝙱𝙾𝚃)
 
-*ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ:*
-/settings - ɢᴇᴛ a ᴄᴏᴍᴘʟᴇᴛᴇ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ ᴡɪᴛʜ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ
+
 """,
             parse_mode=ParseMode.MARKDOWN,
             
