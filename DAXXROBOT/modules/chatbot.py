@@ -140,7 +140,7 @@ def chatbot(update: Update, context: CallbackContext):
 
 
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", chat, run_async=True)
+CHATBOTK_HANDLER = CommandHandler("chatbot", mukesh, run_async=True)
 ADD_CHAT_HANDLER = CallbackQueryHandler(mukeshadd, pattern=r"add_chat", run_async=True)
 RM_CHAT_HANDLER = CallbackQueryHandler(mukeshrm, pattern=r"rm_chat", run_async=True)
 CHATBOT_HANDLER = MessageHandler(
