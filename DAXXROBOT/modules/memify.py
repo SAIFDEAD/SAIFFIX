@@ -6,16 +6,12 @@ from PIL import Image, ImageDraw, ImageFont
 from DAXXROBOT import telethn as bot
 from DAXXROBOT.events import register
 
-
 @register(pattern="^/mmf ?(.*)")
 async def handler(event):
-
     if event.fwd_from:
-
         return
 
     if not event.reply_to_msg_id:
-
         await event.reply("Provide Some Text To Draw!")
 
         return
@@ -23,20 +19,17 @@ async def handler(event):
     reply_message = await event.get_reply_message()
 
     if not reply_message.media:
-
         await event.reply("```Reply to a image/sticker.```")
 
         return
 
     file = await bot.download_media(reply_message)
 
-    msg = await event.reply("```Memifying this image! ✊🏻 ```")
-
+    msg = await event.reply("```Memifying this image !🌹 ```")
 
     text = str(event.pattern_match.group(1)).strip()
 
     if len(text) < 1:
-
         return await msg.reply("You might want to try `/mmf text`")
 
     meme = await drawText(file, text)
@@ -49,7 +42,6 @@ async def handler(event):
 
 
 async def drawText(image_path, text):
-
     img = Image.open(image_path)
 
     os.remove(image_path)
@@ -57,14 +49,12 @@ async def drawText(image_path, text):
     i_width, i_height = img.size
 
     if os.name == "nt":
-
         fnt = "ariel.ttf"
 
     else:
+        fnt = "./DEXXROBOT/resources/default.ttf"
 
-        fnt = "./DAXXROBOT/resources/default.ttf"
-   
-        m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
+    m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
     if ";" in text:
         upper_text, lower_text = text.split(";")
@@ -184,6 +174,6 @@ async def drawText(image_path, text):
     return webp_file
 
 
-__mod_name__ = "Mᴍғ"
+__mod_name__ = "Mᴍẜ"
 __help__ = """ 
 ⫸ /mmf <ᴛᴇxᴛ> ◉ ᴛᴏ ᴍᴇᴍɪғʏ """
