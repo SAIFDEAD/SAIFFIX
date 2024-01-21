@@ -433,7 +433,7 @@ def daxxabout_callback(update: Update, context: CallbackContext):
                             text="𝐎ᴡɴᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍹", url=f"https://github.com/DAXXTEAM"
+                            text="𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍹", url=f"https://t.me/SAIF_DICTATOR"
                         ),
                     ],
                     [
