@@ -676,17 +676,16 @@ def Music_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="⍟ ᴀᴅᴍɪɴ ⍟", callback_data="Music_admin"
+                            text=" 𝐀ᴅᴍɪɴ", callback_data="Music_admin"
                         ),
                         InlineKeyboardButton(
-                            text="⍟ ᴘʟᴀʏ ⍟", callback_data="Music_play"
+                            text="𝐏ʟᴀʏ ", callback_data="Music_play"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴏᴛ ⍟", callback_data="Music_bot"),
+                        InlineKeyboardButton(text=" 𝐁ᴏᴛ ", callback_data="Music_bot"),
                         InlineKeyboardButton(
-                            text="⍟ ᴇxᴛʀᴀ ⍟",
-                            callback_data="Music_extra",
+                            text="𝐌ᴜsɪᴄ 𝐁ᴏ", url=f"https://t.me/HINATA_M_BOT"
                         ),
                     ],
                     [
@@ -717,7 +716,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="daxxsupport")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="daxxsupport")
                     ]
                 ]
             ),
@@ -743,7 +742,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="daxxsupport")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")
                     ]
                 ]
             ),
@@ -770,7 +769,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="daxxsupport")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")
                     ]
                 ]
             ),
@@ -790,7 +789,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="daxxsupport")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")
                     ]
                 ]
             ),
@@ -861,7 +860,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="◁", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="daxxsupport")]]
+                [[InlineKeyboardButton(text="◁", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")]]
             ),
         )
 
@@ -1029,10 +1028,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 6691393517:
+        if OWNER_ID != 6585111267:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/DAXXTEAM/DAXXROBOT)"
-                f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATE_STRING})",
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/SAIFDEAD/SAIFROBOT)",
                 parse_mode=ParseMode.MARKDOWN,
                 
             )
@@ -1070,7 +1068,7 @@ def migrate_chats(update: Update, context: CallbackContext):
     for mod in MIGRATEABLE:
         mod.__migrate__(old_chat, new_chat)
 
-    LOGGER.info("Successfully migrated!")
+    LOGGER.info("Successfully migrated naruto robot !")
     raise DispatcherHandlerStop
 
 
@@ -1080,8 +1078,8 @@ def main():
                 [
                     [
                         InlineKeyboardButton(
-                            text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ➕",
-                            url="https://t.me/YumikooBot?startgroup=true"
+                            text="❣️ 𝐀𝙳𝙳 𝙼𝐞 𝐁𝙰𝙱𝚈 ❣️",
+                            url="https:/t.me/NARUTO_X_ROBOT?startgroup=true"
                             )
                        ]
                 ]
@@ -1090,11 +1088,11 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 f"@{SUPPORT_CHAT}",
-                photo="",
+                photo=f"{START_IMG}",
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**𝐌ᴀᴅᴇ ʙʏ ❣️** [Dιcтaтor](https://t.me/SAIF_DICTATOR)
+**ᴍᴀᴅᴇ Βy**[Dιcтaтor](https://t.me/SAIF_DICTATOR)
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
@@ -1146,7 +1144,7 @@ def main():
     dispatcher.add_handler(DAXXROBOT_main_handler)
     dispatcher.add_error_handler(error_callback)
     dispatcher.add_handler(source_callback_handler)
-    LOGGER.info("naruto robot depoly successfully if more information contact @SAIFHELPGC")
+    LOGGER.info("Naruto robot depoly successfully 💖")
     updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
 
     if len(argv) not in (1, 3, 4):
