@@ -683,8 +683,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(text=" 𝐁ᴏᴛ ", callback_data="Music_bot"),
                         InlineKeyboardButton(
-                            text="𝐌ᴜsɪᴄ 𝐁ᴏᴛ", callback_data"Music_Extra"
-                        ),
+                            text="𝐌ᴜsɪᴄ 𝐁ᴏᴛ", callback_data"Music_extra"),
                     ],
                     [
                         InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help")
