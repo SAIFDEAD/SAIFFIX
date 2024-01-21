@@ -9,16 +9,16 @@ from telethon import __version__ as s
 from DAXXROBOT import OWNER_ID, dispatcher
 from DAXXROBOT import pbot as client
 
-DAXX = "https://graph.org/file/22f4ce50778692e31a3b8.jpg"
+DAXX = "https://telegra.ph/file/6d9c63e666615553d6bec.jpg"
 
 
-@client.on_message(filters.command(["repo", "source"]))
+@client.on_message(filters.command(["repo", "source", "dead"]))
 async def repo(client, message):
     await message.reply_photo(
         photo=DAXX,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴅᴇᴠᴇʟᴏᴘᴇʀ](tg://user?id={OWNER_ID})
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴅᴇᴠᴇʟᴏᴘᴇʀ](url=f" https://t.me/SAIF_DICTATOR)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://t.me/daxxsir3",
+                        url="https://github.com/SAIFDEAD/SAIFROBOT",
                     ),
                 ]
             ]
@@ -42,7 +42,7 @@ async def repo(client, message):
     )
 
 
-__mod_name__ = "Rᴇᴩᴏ"
+__mod_name__ = "Rᴇᴘᴏ"
 _help__ = """
  /repo  ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 
  /source ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ
