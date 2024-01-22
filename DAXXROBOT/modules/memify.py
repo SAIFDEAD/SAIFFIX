@@ -25,7 +25,7 @@ async def handler(event):
 
     file = await bot.download_media(reply_message)
 
-    msg = await event.reply("```Memifying this image !🌹 ```")
+    msg = await event.reply("```Memifying this image! ✊🏻 ```")
 
     text = str(event.pattern_match.group(1)).strip()
 
@@ -52,7 +52,7 @@ async def drawText(image_path, text):
         fnt = "ariel.ttf"
 
     else:
-        fnt = "./DEXXROBOT/resources/default.ttf"
+        fnt = "./FallenRobot/resources/default.ttf"
 
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
