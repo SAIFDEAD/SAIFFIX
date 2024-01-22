@@ -11,12 +11,15 @@ from pyrogram.enums import *
 from DAXXROBOT import pbot as app
 from DAXXROBOT.modules.mongo.couples_db import _get_image, get_couple, save_couple
 
+
+
+# Date and time
 def dt():
     now = datetime.now()
     dt_string = now.strftime("%d/%m/%Y %H:%M")
     dt_list = dt_string.split(" ")
     return dt_list
-    
+
 
 def dt_tom():
     a = (
@@ -28,28 +31,32 @@ def dt_tom():
     )
     return a
 
-tomorrow = str(dt_tom())
+
 today = str(dt()[0])
+tomorrow = str(dt_tom())
 
-@app.on_message(filters.command(" couples "))
-async def ctest(_, message):
-    cid = message.chat.id
+
+@pbot.on_message(filters.command(["couple", "couples"]))
+async def couple(_, message):
     if message.chat.type == ChatType.PRIVATE:
-        return await message.reply_text("This command only works in groups.")
+        return await message.reply_text("ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘ.")
     try:
-       is_selected = await get_couple(cid, today)
-       if not is_selected:
-         msg = await message.reply_text("Generating Couples Image...")
-         #GET LIST OF USERS
-         list_of_users = []
+        chat_id = message.chat.id
+        is_selected = await get_couple(chat_id, today)
+        if not is_selected:
+            list_of_users = []
+            async for i in pbot.get_chat_members(message.chat.id, limit=50):
+                if not i.user.is_bot:
+                    list_of_users.append(i.user.id)
+            if len(list_of_users) < 2:
+                return await message.reply_text("ɴᴏᴛ ᴇɴᴏᴜɢʜ ᴜsᴇʀ")
+            c1_id = random.choice(list_of_users)
+            c2_id = random.choice(list_of_users)
+            while c1_id == c2_id:
+                c1_id = random.choice(list_of_users)
+            c1_mention = (await pbot.get_users(c1_id)).mention
+            c2_mention = (await pbot.get_users(c2_id)).mention
 
-         async for i in app.get_chat_members(message.chat.id, limit=1000):
-             if not i.user.is_bot:
-               list_of_users.append(i.user.id)
-
-         c1_id = random.choice(list_of_users)
-         c2_id = random.choice(list_of_users)
-         while c1_id == c2_id:
               c1_id = random.choice(list_of_users)
 
 
