@@ -12,8 +12,6 @@ from DAXXROBOT import pbot as app
 from DAXXROBOT.modules.mongo.couples_db import _get_image, get_couple, save_couple
 
 
-
-# Date and time
 def dt():
     now = datetime.now()
     dt_string = now.strftime("%d/%m/%Y %H:%M")
@@ -32,121 +30,93 @@ def dt_tom():
     return a
 
 
-today = str(dt()[0])
 tomorrow = str(dt_tom())
+today = str(dt()[0])
+
+COUPLES_PIC = "https://graph.org/file/bab9a86b6f0e96f7fa078.jpg"
+C = """
+✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
+➖➖➖➖➖➖➖➖➖➖➖➖
+{} + ( PGM🎀😶 (https://t.me/Saifhelpgc) + 花火 (https://t.me/SAIF_DICTATOR) + ゼロツー (https://t.me/SAI_INNOCENT) ) = 💞
+➖➖➖➖➖➖➖➖➖➖➖➖
+𝗡𝗘𝗪 𝗖𝗢𝗨𝗣𝗟𝗘 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 𝗖𝗔𝗡 𝗕𝗘 𝗖𝗛𝗢𝗦𝗘𝗡 𝗔𝗧 12AM {}
+"""
+CAP = """
+✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
+➖➖➖➖➖➖➖➖➖➖➖➖
+{} + {} = 💞
+➖➖➖➖➖➖➖➖➖➖➖➖
+𝗡𝗘𝗪 𝗖𝗢𝗨𝗣𝗟𝗘 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 𝗖𝗔𝗡 𝗕𝗘 𝗖𝗛𝗢𝗦𝗘𝗡 𝗔𝗧 12AM {}
+"""
+
+CAP2 = """
+✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
+➖➖➖➖➖➖➖➖➖➖➖➖
+{} (tg://openmessage?user_id={}) + {} (tg://openmessage?user_id={}) = 💞\n
+➖➖➖➖➖➖➖➖➖➖➖➖
+𝗡𝗘𝗪 𝗖𝗢𝗨𝗣𝗟𝗘 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 𝗖𝗔𝗡 𝗕𝗘 𝗖𝗛𝗢𝗦𝗘𝗡 𝗔𝗧 12AM {}
+"""
 
 
-@pbot.on_message(filters.command(["couple", "couples"]))
-async def couple(_, message):
-    if message.chat.type == ChatType.PRIVATE:
-        return await message.reply_text("ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘ.")
-    try:
-        chat_id = message.chat.id
-        is_selected = await get_couple(chat_id, today)
-        if not is_selected:
-            list_of_users = []
-            async for i in pbot.get_chat_members(message.chat.id, limit=50):
-                if not i.user.is_bot:
-                    list_of_users.append(i.user.id)
-            if len(list_of_users) < 2:
-                return await message.reply_text("ɴᴏᴛ ᴇɴᴏᴜɢʜ ᴜsᴇʀ")
-            c1_id = random.choice(list_of_users)
-            c2_id = random.choice(list_of_users)
-            while c1_id == c2_id:
+@app.on_message(filters.command(["couple", "couples", "shipping"]) & ~filters.private)
+async def nibba_nibbi(_, message):
+    if message.from_user.id == 6585111267:
+        my_ = await _.get_users("rfxtuv")
+        me = await _.get_users(6585111267)
+        await message.reply_photo(
+            photo=COUPLES_PIC, caption=C.format(me.mention, tomorrow)
+        )
+    else:
+        try:
+            chat_id = message.chat.id
+            is_selected = await get_couple(chat_id, today)
+            if not is_selected:
+                list_of_users = []
+                async for i in _.get_chat_members(message.chat.id, limit=50):
+                    if not i.user.is_bot:
+                        list_of_users.append(i.user.id)
+                if len(list_of_users) < 2:
+                    return await message.reply_text("ɴᴏᴛ ᴇɴᴏᴜɢʜ ᴜsᴇʀs ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ.")
                 c1_id = random.choice(list_of_users)
-            c1_mention = (await pbot.get_users(c1_id)).mention
-            c2_mention = (await pbot.get_users(c2_id)).mention
+                c2_id = random.choice(list_of_users)
+                while c1_id == c2_id:
+                    c1_id = random.choice(list_of_users)
+                c1_mention = (await _.get_users(c1_id)).mention
+                c2_mention = (await _.get_users(c2_id)).mention
+                await _.send_photo(
+                    message.chat.id,
+                    photo=COUPLES_PIC,
+                    caption=CAP.format(c1_mention, c2_mention, tomorrow),
+                )
 
-              c1_id = random.choice(list_of_users)
+                couple = {"c1_id": c1_id, "c2_id": c2_id}
+                await save_couple(chat_id, today, couple)
 
+            elif is_selected:
+                c1_id = int(is_selected["c1_id"])
+                c2_id = int(is_selected["c2_id"])
 
-         photo1 = (await app.get_chat(c1_id)).photo
-         photo2 = (await app.get_chat(c2_id)).photo
- 
-         N1 = (await app.get_users(c1_id)).mention 
-         N2 = (await app.get_users(c2_id)).mention
-         
-         try:
-            p1 = await app.download_media(photo1.big_file_id, file_name="pfp.png")
-         except Exception:
-            p1 = "DAXXROBOT/resources/Couples.png"
-         try:
-            p2 = await app.download_media(photo2.big_file_id, file_name="pfp1.png")
-         except Exception:
-            p2 = "DAXXROBOT/resources/Couples.png"
-            
-         img1 = Image.open(f"{p1}")
-         img2 = Image.open(f"{p2}")
-
-         img = Image.open("DAXXROBOT/resources/Couples.png")
-
-         img1 = img1.resize((400,400))
-         img2 = img2.resize((400,400))
-
-         mask = Image.new('L', img1.size, 0)
-         draw = ImageDraw.Draw(mask) 
-         draw.ellipse((0, 0) + img1.size, fill=255)
-
-         mask1 = Image.new('L', img2.size, 0)
-         draw = ImageDraw.Draw(mask1) 
-         draw.ellipse((0, 0) + img2.size, fill=255)
-
-
-         img1.putalpha(mask)
-         img2.putalpha(mask1)
-
-         draw = ImageDraw.Draw(img)
-
-         img.paste(img1, (434, 217), img1)
-         img.paste(img2, (994, 217), img2)
-
-         img.save(f'test_{cid}.png')
-    
-         TXT = f"""
-**TODAY'S SELECTED COUPLES 🎉 :
+                c1_name = (await _.get_users(c1_id)).first_name
+                c2_name = (await _.get_users(c2_id)).first_name
+                print(c1_id, c2_id, c1_name, c2_name)
+                couple_selection_message = f"""✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
 ➖➖➖➖➖➖➖➖➖➖➖➖
-{N1} + {N2} = ❣️
+[{c1_name}](tg://openmessage?user_id={c1_id}) + [{c2_name}](tg://openmessage?user_id={c2_id}) = 💞
 ➖➖➖➖➖➖➖➖➖➖➖➖
-NEXT COUPLES WILL BE SELECTED ON {tomorrow} !!**
-"""
-    
-         await message.reply_photo(f"test_{cid}.png", caption=TXT)
-         await msg.delete()
-         a = upload_file(f"test_{cid}.png")
-         for x in a:
-           img = "https://graph.org/" + x
-           couple = {"c1_id": c1_id, "c2_id": c2_id}
-           await save_couple(cid, today, couple, img)
-    
-         
-       elif is_selected:
-         msg = await message.reply_text("Getting Todays Couples Image...")
-         b = await _get_image(cid)
-         c1_id = int(is_selected["c1_id"])
-         c2_id = int(is_selected["c2_id"])
-         c1_name = (await app.get_users(c1_id)).first_name
-         c2_name = (await app.get_users(c2_id)).first_name
-         
-         TXT = f"""
-**TODAY'S SELECTED COUPLES 🎉 :
-➖➖➖➖➖➖➖➖➖➖➖➖
-[{c1_name}](tg://openmessage?user_id={c1_id}) + [{c2_name}](tg://openmessage?user_id={c2_id}) = ❣️
-➖➖➖➖➖➖➖➖➖➖➖➖
-NEXT COUPLES WILL BE SELECTED ON {tomorrow} !!**
-"""
-         await message.reply_photo(b, caption=TXT)
-         await msg.delete()
-    except Exception as e:
-        print(str(e))
-    try:
-      os.remove(f"./downloads/pfp1.png")
-      os.remove(f"./downloads/pfp2.png")
-      os.remove(f"test_{cid}.png")
-    except Exception:
-       pass
-         
+𝗡𝗘𝗪 𝗖𝗢𝗨𝗣𝗟𝗘 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 𝗖𝗔𝗡 𝗕𝗘 𝗖𝗛𝗢𝗦𝗘𝗡 𝗔𝗧 12AM {tomorrow}"""
+                await _.send_photo(
+                    message.chat.id, photo=COUPLES_PIC, caption=couple_selection_message
+                )
+        except Exception as e:
+            print(e)
+            await message.reply_text(str(e))
 
-__mod__ = "𝐂ᴏᴜᴘʟᴇs"
+
+
 __help__ = """
-**» /couples** - Get Todays Couples Of The Group In Interactive View
+💘 *Choose couples in your chat*
+
+» /couple, /couples, /shipping *:* Choose 2 users and send their names as couples in your chat.
 """
+
+__mod_name__ = "𝐂ᴏᴜᴘʟᴇs"
