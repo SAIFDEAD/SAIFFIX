@@ -31,7 +31,7 @@ def dt_tom():
 tomorrow = str(dt_tom())
 today = str(dt()[0])
 
-@app.on_message(filters.command("couples"))
+@app.on_message(filters.command(" couples "))
 async def ctest(_, message):
     cid = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
@@ -43,7 +43,7 @@ async def ctest(_, message):
          #GET LIST OF USERS
          list_of_users = []
 
-         async for i in app.get_chat_members(message.chat.id, limit=50):
+         async for i in app.get_chat_members(message.chat.id, limit=1000):
              if not i.user.is_bot:
                list_of_users.append(i.user.id)
 
@@ -139,7 +139,7 @@ NEXT COUPLES WILL BE SELECTED ON {tomorrow} !!**
        pass
          
 
-__mod__ = "COUPLES"
+__mod__ = "𝐂ᴏᴜᴘʟᴇs"
 __help__ = """
 **» /couples** - Get Todays Couples Of The Group In Interactive View
 """
