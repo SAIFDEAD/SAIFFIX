@@ -95,7 +95,7 @@ buttons = [
      ],
     [
         InlineKeyboardButton(
-            text="❣️ 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙᴜ ❣️",
+            text="❣️ 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ ❣️",
             url=f"https://t.me/NARUTO_X_ROBOT?startgroup=true",
         ),
     ],
@@ -477,9 +477,9 @@ def DAXXROBOT_Main_Callback(update: Update, context: CallbackContext):
         )
     elif query.data=="basic_help":
         query.message.edit_caption("""
-╔═════════════════╗
- 𝐌ᴜsɪᴄ 𝐁ᴏᴛ  :- [ϲℓιϲΚ](url=f" https://t.me/HINATA_N_BOT)
-╚═════════════════╝.""",parse_mode=ParseMode.MARKDOWN,
+       ╔═════════════════╗
+   𝐌ᴜsɪᴄ 𝐁ᴏᴛ  :- @HINATA_N_BOT
+       ╚═════════════════╝.""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -568,7 +568,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             ),
             )
     elif query.data=="donation_help":
-        query.message.edit_caption("""𝐀ɪ 𝐁ᴏᴛ :- [СℓιϲΚ](url=f"https://t.me/DE1DAIBOT)""",parse_mode=ParseMode.MARKDOWN,
+        query.message.edit_caption("""𝐀ɪ 𝐁ᴏᴛ :- @DE1DAIBOT""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [ [
@@ -750,7 +750,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
     elif query.data == "Music_extra":
         query.message.edit_caption(f"*» ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ «*"
             f"""
-𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐮𝐬𝐢𝐜 𝐛𝐨𝐭 :- [𝙼𝚄𝚂𝙸𝙲](https://t.me/HINATA_N_𝙱𝙾𝚃)
+𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐮𝐬𝐢𝐜 𝐛𝐨𝐭 :- [𝙼𝚄𝚂𝙸𝙲](https://t.me/HINATA_N_BOT)
 
 
 """,
@@ -1057,7 +1057,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                f"@{SUPPORT_CHAT}",
+                f"@SAIFHELPGC",
                 photo=f"{START_IMG}",
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
