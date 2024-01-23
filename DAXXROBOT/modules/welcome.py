@@ -22,7 +22,6 @@ from telegram.ext import (
     filters,
 )
 
-import DAXXROBOT.sql.welcome_sql as sql
 from DAXXROBOT.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
 from DAXXROBOT.sql.global_bans_sql import is_user_gbanned
 from DAXXROBOT.temp import temp
