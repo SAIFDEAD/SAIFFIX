@@ -21,7 +21,6 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-from telegram.helpers import escape_markdown, mention_html, mention_markdown
 
 import DAXXROBOT.sql.welcome_sql as sql
 from DAXXROBOT.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
