@@ -9,7 +9,6 @@ from contextlib import suppress
 from datetime import datetime
 from functools import partial
 
-import unidecode
 from PIL import Image, ImageChops, ImageDraw, ImageFont
 from pyrogram import filters as ft
 from pyrogram.types import ChatMemberUpdated, Message
