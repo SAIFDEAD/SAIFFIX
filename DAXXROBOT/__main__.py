@@ -78,7 +78,7 @@ PM_START_TEXT = """
 *ʜᴇʏ* {} , 🥀
 *๏ ɪ'ᴍ {} ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs!
 ʜɪᴛ ʜᴇʟᴘ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ!*
-➻ *ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ  ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.*
+➻ *ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ  💖 ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.*
 ─────────────────
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
@@ -360,7 +360,7 @@ def daxxabout_callback(update: Update, context: CallbackContext):
     if query.data == "daxx":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_caption(f"*ʜᴇʏ,*🥀\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*"
-            "\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ.*"
+            "\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💖 ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ.*"
             "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
@@ -425,7 +425,7 @@ def daxxabout_callback(update: Update, context: CallbackContext):
                             text="🏡 𝐒ᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="𝐀ʙᴏᴜᴛ 🍷", url=f"https://t.me/SAIFALLBOT/5"
+                            text="𝐀ʙᴏᴜᴛ 🍷", url=f"https://t.me/SAIFALLBOT"
                         ),
                     ],
                     [
@@ -464,7 +464,7 @@ def DAXXROBOT_Main_Callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="𝐌ᴜsɪᴄ 🎧", callback_data="Music_")
                     ],
                     [
-                        InlineKeyboardButton(text="💁 𝐌ᴜsɪᴄ 𝐁ᴏᴛ", callback_data="basic_help"),
+                        InlineKeyboardButton(text="❣️ 𝐍ᴀʀᴜᴛᴏ", callback_data="basic_help"),
                         InlineKeyboardButton(text="𝐄xᴘᴇʀᴛ📱", callback_data="expert_help")
                     ],
                     [
@@ -478,13 +478,17 @@ def DAXXROBOT_Main_Callback(update: Update, context: CallbackContext):
     elif query.data=="basic_help":
         query.message.edit_caption("""
        ╔═════════════════╗
-   𝐌ᴜsɪᴄ 𝐁ᴏᴛ  :- @HINATA_N_BOT
+   🍃🌹 𝐈 𝐀ᴍ 𝐍αяυтσ ✘ 𝐑σвσт 𝐀  𝐀ᴅᴠᴀɴᴄᴇ 𝐀ɴɪᴍᴇ  𝐁ᴀsᴇᴅ  𝐌ᴀɴᴀɢᴍᴇɴᴛ 𝐁ᴏᴛ. 🌼💐
+
+🌲 𝙰𝙱𝙾𝚄𝚃 𝙽𝙰𝚁𝚄𝚃𝙾 🌲 :- 
+Иαяʋтσ Ʋʓʋмακι, α нʏρɛяαcтιʏɛ αи∂ κиʋcκℓɛ-нɛα∂ɛ∂ иιиʝα, ℓιʏɛƨ ιи Ƙσиσнαɢακʋяɛ, тнɛ Ħι∂∂ɛи ˩ɛαғ ʏιℓℓαɢɛ. Μσмɛитƨ ρяισя тσ нιƨ вιятн, α нʋɢɛ ∂ɛмσи κиσωи as тнɛ Ƙʏʋʋвι, тнɛ Иιиɛ-тαιℓɛ∂ Ғσϰ, αттαcκɛ∂ Ƙσиσнαɢακʋяɛ αи∂ ωяɛακɛ∂ нαʏσc. Ɩи σя∂ɛя тσ ρʋт αи ɛи∂ тσ тнɛ Ƙʏʋʋвι'ƨ яαмραɢɛ, the ℓɛα∂ɛя σғ тнɛ ʏιℓℓαɢɛ, тнɛ 4тн Ħσκαɢɛ, ƨαcяιғιcɛ∂ нιƨ ℓιғɛ αи∂ ƨɛαℓɛ∂ тнɛ мσиƨтяσʋƨ вɛαƨт ιиƨι∂ɛ тнɛ иɛωвσяи Иαяʋтσ. 
+Ƨнʋииɛ∂ вɛcαʋƨɛ σғ тнɛ ρяɛƨɛиcɛ σғ тнɛ Ƙʏʋʋвι ιиƨι∂ɛ нιм, Иαяʋтσ ƨтяʋɢɢℓɛƨ тσ ғιи∂ нιƨ ρℓαcɛ ιи тнɛ ʏιℓℓαɢɛ. Ħɛ ƨтяιʏɛƨ тσ вɛcσмɛ тнɛ Ħσκαɢɛ σғ Ƙσиσнαɢακʋяɛ, αи∂ нɛ мɛɛтƨ мαиʏ ғяιɛи∂ƨ αи∂ ғσɛƨ αℓσиɢ тнɛ ωαʏ.  🍂💫
        ╚═════════════════╝.""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", callback_data="SAIFHELPGC")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/SAIFHELPGC")
                     ]
                 ]
             ),
@@ -511,7 +515,7 @@ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", callback_data="SAIFHELPGC")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/SAIFHELPGC")
                     ]
                 ]
             ),
@@ -534,7 +538,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", callback_data="SAIFHELPGC")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/SAIFHELPGC")
                     ]
                 ]
             ),
@@ -562,7 +566,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", callback_data="SAIFHELPGC")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/SAIFHELPGC")
                     ]
                 ]
             ),
@@ -579,7 +583,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text=" 𝐃ᴏɴᴀᴛᴇ ", url="https://t.me/SAIFALLBOT"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", callback_data="SAIFHELPGC")
+                        InlineKeyboardButton(text=" 𝐃ᴏɴᴀᴛᴇ ", url="https://t.me/SAIFALLBOT/4"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/SAIFHELPGC")
                     ]
                 ]
             ),
@@ -715,7 +719,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SAIFHELPGC")
                     ]
                 ]
             ),
@@ -742,7 +746,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SAIFHELPGC")
                     ]
                 ]
             ),
@@ -759,7 +763,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SAIFHELPGC")
                     ]
                 ]
             ),
@@ -830,7 +834,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="◁", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")]]
+                [[InlineKeyboardButton(text="◁", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f" https://t.me/SAIFHELPGC")]]
             ),
         )
 
