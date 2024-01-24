@@ -296,8 +296,8 @@ async def lego(event):
 ☘️ ʟᴏɢᴏ ᴄʀᴇᴀᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ☘️
 ◈──────────────◈
 🔥 ᴄʀᴇᴀᴛᴇᴅ ʙʏ : @{BOT_USERNAME}
-❣️ 𝐎ᴏɴᴇʀ :- (𝙼𝙰𝚁𝚄𝚃𝙾)(https://t.me/SAIF_DICTATOR) ❣️
-✨𝐉𝐨𝐢𝐧 :- @SAIFHELPGC ✨
+❣️ 𝐎ᴡɴᴇʀ :- @SAIF_DICTATOR ❣️
+✨𝐉ᴏɪɴ :- @SAIFHELPGC ✨
 ━━━━━━━{BOT_NAME}━━━━━━━""",buttons=button_row
 )
         await pesan.delete()
