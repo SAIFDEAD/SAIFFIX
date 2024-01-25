@@ -285,7 +285,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' \n[<a href="https://t.me/HEROKUFREECC">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
+        text += ' \n[<a href="https://t.me/SAIFHELPGC">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
             bot.username
         )
 
@@ -323,15 +323,15 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/HEROKUFREECC"
+                                "𝐌ᴜsɪᴄ ❣️", url=f"https://t.me/HINATA_N_BOT"
                             ),
                             InlineKeyboardButton(
-                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/HEROKUFREECC"
+                                "𝐀ɪ 🌹", url="https://t.me/DE1DAIBOT"
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕",
+                                text="💖 𝐓𝐨𝐮𝐜𝐡 𝐌𝐞 💖",
                                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                             ),
                         ],
@@ -349,10 +349,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/HEROKUFREECC"
+                                "𝐌ᴜsɪᴄ 💟", url="https://t.me/HINATA_N_BOT"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/HEROKUFREECC"
+                                "𝐆ʀᴏᴜᴘ 💘", url="https://t.me/SAIFHELPGC"
                             ),
                         ],
                         [
