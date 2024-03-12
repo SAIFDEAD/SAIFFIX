@@ -34,13 +34,6 @@ tomorrow = str(dt_tom())
 today = str(dt()[0])
 
 COUPLES_PIC = "https://graph.org/file/bab9a86b6f0e96f7fa078.jpg"
-C = """
-✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
-➖➖➖➖➖➖➖➖➖➖➖➖
-{} + ( PGM🎀😶 (https://t.me/Saifhelpgc) + 花火 (https://t.me/SAIF_DICTATOR) + ゼロツー (https://t.me/SAI_INNOCENT) ) = 💞
-➖➖➖➖➖➖➖➖➖➖➖➖
-𝗡𝗘𝗪 𝗖𝗢𝗨𝗣𝗟𝗘 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 𝗖𝗔𝗡 𝗕𝗘 𝗖𝗛𝗢𝗦𝗘𝗡 𝗔𝗧 12AM {}
-"""
 CAP = """
 ✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
 ➖➖➖➖➖➖➖➖➖➖➖➖
