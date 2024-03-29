@@ -21,7 +21,7 @@ PHOTO = [
     "https://telegra.ph/file/ee8ac17daa63d59d36e8c.jpg"
 ]
 
-SAIFDEAD = [
+Mukesh = [
     [
         InlineKeyboardButton(text="𝐎𝚆𝙽𝙴𝚁", user_id=OWNER_ID),
         InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
@@ -68,5 +68,5 @@ async def restart(client, m: Message):
   
   » **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{pyver()}`
    ━━━━━━━━━━━━━━━━━━━""",
-        reply_markup=InlineKeyboardMarkup(SAIFDEAD),
+        reply_markup=InlineKeyboardMarkup(Mukesh),
     )
