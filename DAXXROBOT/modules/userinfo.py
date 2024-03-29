@@ -285,7 +285,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' \n[<a href="https://t.me/SAIFHELPGC">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
+        text += ' \n[<a href="https://t.me/DEAD_GRPCHAT">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
             bot.username
         )
 
@@ -326,12 +326,12 @@ def info(update: Update, context: CallbackContext):
                                 "𝐌ᴜsɪᴄ ❣️", url=f"https://t.me/HINATA_N_BOT"
                             ),
                             InlineKeyboardButton(
-                                "𝐀ɪ 🌹", url="https://t.me/DE1DAIBOT"
+                                "𝐀ɪ 🌹", url="https://t.me/GOJO_AIBOT"
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="💖 𝐓𝐨𝐮𝐜𝐡 𝐌𝐞 💖",
+                                text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•",
                                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                             ),
                         ],
@@ -352,12 +352,12 @@ def info(update: Update, context: CallbackContext):
                                 "𝐌ᴜsɪᴄ 💟", url="https://t.me/HINATA_N_BOT"
                             ),
                             InlineKeyboardButton(
-                                "𝐆ʀᴏᴜᴘ 💘", url="https://t.me/SAIFHELPGC"
+                                "𝐆ʀᴏᴜᴘ 💘", url="https://t.me/DEAD_GRPCHAT"
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕",
+                                text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•",
                                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                             ),
                         ],
