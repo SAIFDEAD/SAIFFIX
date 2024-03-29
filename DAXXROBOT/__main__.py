@@ -317,7 +317,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", callback_data="SAIFHELPGC")]]
+                    [[InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DEAD_GRPCHAT")]]
                 ),
             )
 
@@ -572,7 +572,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             ),
             )
     elif query.data=="donation_help":
-        query.message.edit_caption("""𝐀ɪ 𝐁ᴏᴛ :- @GOJO_AIBOT""",parse_mode=ParseMode.MARKDOWN,
+        query.message.edit_caption("""cℓιcκ [𝐀ɪ 𝐁ᴏᴛ](https://t.me/GOJO_AIBOT) """,parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [ [
