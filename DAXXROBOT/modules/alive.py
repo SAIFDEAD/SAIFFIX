@@ -58,7 +58,7 @@ async def restart(client, m: Message):
         START_IMG,
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
-  » **ᴍʏ ᴏᴡɴᴇʀ :** [𝐃ιcтαтσя](https://t.me/SAIF_DICTATOE)
+  » **ᴍʏ ᴏᴡɴᴇʀ :** [𝐃ιcтαтσя](https://t.me/SAIF_DICTATOR)
   
   » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
   
