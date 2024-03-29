@@ -14,7 +14,7 @@ f""" ======================={BOT_NAME}====================== """
 file1 = "https://telegra.ph/file/d939334fdfcdef8e70b7a.jpg"
 file2 = "https://telegra.ph/file/c3d27cdf93bb539868a21.jpg"
 file3 = "https://telegra.ph/file/dcc5e003287f69acea368.jpg"
-file4 = "https://telegra.ph/file/b32cac7498b9dde4418cb.jpg"
+file4 = "https://graph.org/file/39d027769f557ca5242bd.jpg"
 file5 = "https://telegra.ph/file/5b9751a2e802bfd8fc1bf.jpg"
 """ ======================={BOT_NAME}====================== """
 
