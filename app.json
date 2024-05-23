@@ -11,11 +11,7 @@
     ],   
  "repository": "https://github.com/SAIFDEAD/NARUTO-ROBOT",
  "stack": "heroku-22",
- "addons": [
-       "options": {
-          "version": "15"
-       }
- ],
+    
  "env": {
     "API_ID": {
        "description": "𝐆𝐞𝐭 𝐭𝐡𝐢𝐬 𝐯𝐚𝐥𝐮𝐞 𝐟𝐫𝐨𝐦 𝐦𝐲.𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦.𝐨𝐫𝐠/𝐚𝐩𝐩𝐬.",
