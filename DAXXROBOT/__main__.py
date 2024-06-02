@@ -583,7 +583,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text=" 𝐃ᴏɴᴀᴛᴇ ", url="https://t.me/SAIFALLBOT/8"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/BOTSUPPORT_CHAT")
+                        InlineKeyboardButton(text=" 𝐃ᴏɴᴀᴛᴇ ", url="https://t.me/SAIFALLBOT/18"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
