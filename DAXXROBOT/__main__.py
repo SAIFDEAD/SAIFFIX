@@ -317,7 +317,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DEAD_GRPCHAT")]]
+                    [[InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BOTSUPPORT_CHAT")]]
                 ),
             )
 
@@ -433,7 +433,7 @@ def daxxabout_callback(update: Update, context: CallbackContext):
                             text="𝐎ᴡɴᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍹", url=f"https://t.me/SAIF_DICTATOR"
+                            text="𝐆ʀᴏᴜᴘ🍹", url=f"https://t.me/BOTSUPPORT_CHAT"
                         ),
                     ],
                     [
@@ -488,7 +488,7 @@ def DAXXROBOT_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -515,7 +515,7 @@ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -538,7 +538,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -566,7 +566,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -583,7 +583,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text=" 𝐃ᴏɴᴀᴛᴇ ", url="https://t.me/SAIFALLBOT/8"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text=" 𝐃ᴏɴᴀᴛᴇ ", url="https://t.me/SAIFALLBOT/8"),InlineKeyboardButton(text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -693,7 +693,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" 𝐁ᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text=" 𝐁ᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -719,7 +719,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text="• 𝐁ᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -746,7 +746,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" 𝐁ᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text=" 𝐁ᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -763,7 +763,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" 𝐁ᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DEAD_GRPCHAT")
+                        InlineKeyboardButton(text=" 𝐁ᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BOTSUPPORT_CHAT")
                     ]
                 ]
             ),
@@ -834,7 +834,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="◁", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f" https://t.me/DEAD_GRPCHAT")]]
+                [[InlineKeyboardButton(text="◁", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f" https://t.me/BOTSUPPORT_CHAT")]]
             ),
         )
 
