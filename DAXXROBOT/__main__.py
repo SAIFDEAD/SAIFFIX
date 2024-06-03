@@ -42,8 +42,6 @@ from DAXXROBOT import (
     updater,
 )
 from DAXXROBOT.modules import ALL_MODULES
-from DAXXROBOT.modules.helper_funcs.chat_status import is_user_admin
-from DAXXROBOT.modules.helper_funcs.misc import paginate_modules
 
 
 def get_readable_time(seconds: int) -> str:
