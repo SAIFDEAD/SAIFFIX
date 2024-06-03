@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from DAXXROBOT import OWNER_ID, dispatcher
 from DAXXROBOT import pbot as client
 
-DAXX = "https://telegra.ph/file/6d9c63e666615553d6bec.jpg"
+DAXX = "https://graph.org/file/823730c5dcfd71cbd895f.jpg"
 
 
 @client.on_message(filters.command(["repo", "source", "dead"]))
@@ -24,7 +24,7 @@ async def repo(client, message):
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
 **» ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
 
-**𝐍αяυтσ ✘ 𝐑σвσт sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
+**𝐇ιиαтα ✘ 𝐑σвσт sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://github.com/SAIFDEAD/SAIFROBOT",
+                        url="https://github.com/SAIFDEAD/SAIFMUSIC",
                     ),
                 ]
             ]
