@@ -993,25 +993,13 @@ def main():
     settings_callback_handler = CallbackQueryHandler(
         settings_button, pattern=r"stngs_", run_async=True
     )
-    source_callback_handler = CallbackQueryHandler(
-        Source_about_callback, pattern=r"source_", run_async=True
-    )
-    music_callback_handler = CallbackQueryHandler(
-        Music_about_callback, pattern=r"Music_",run_async=True
-    )
     DAXXROBOT_main_handler = CallbackQueryHandler(
         DAXXROBOT_Main_Callback, pattern=r".*_help",run_async=True)
-    donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
-    dispatcher.add_handler(music_callback_handler)
     dispatcher.add_handler(settings_handler)
-    dispatcher.add_handler(help_callback_handler)
     dispatcher.add_handler(settings_callback_handler)
     dispatcher.add_handler(migrate_handler)
-    dispatcher.add_handler(donate_handler)
     dispatcher.add_handler(DAXXROBOT_main_handler)
-    dispatcher.add_error_handler(error_callback)
-    dispatcher.add_handler(source_callback_handler)
     LOGGER.info("Naruto robot depoly successfully 💖")
     updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
 
