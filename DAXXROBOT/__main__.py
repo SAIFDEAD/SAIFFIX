@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                BOTSUPPORT_CHAT",
+                f"@BOTSUPPORT_CHAT",
                 photo=f"{START_IMG}",
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
