@@ -134,82 +134,7 @@ def migrate_chats(update: Update, context: CallbackContext):
     LOGGER.info("Successfully migrated naruto robot !")
     raise DispatcherHandlerStop
 
-
-def main():
-    global x
-    x=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="❣️ 𝐀𝙳𝙳 𝙼𝐞 𝐁𝙰𝙱𝚈 ❣️",
-                            url="https:/t.me/HINATA_N_OT?startgroup=true"
-                            )
-                       ]
-                ]
-                     )
-    if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
-        try:
-            dispatcher.bot.send_photo(
-                f"@BOTSUPPORT_CHAT",
-                photo=f"{START_IMG}",
-                caption=f"""
-✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
-━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ Βy**[Dιcтaтor](https://t.me/SAIF_DICTATOR)
-**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
-**ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
-**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
-**ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ:** `{pyrover}`
-━━━━━━━━━━━━━
-""",reply_markup=x,
-                parse_mode=ParseMode.MARKDOWN,
-            )
-        except Unauthorized:
-            LOGGER.warning(
-                f"Bot isn't able to send message to @{SUPPORT_CHAT}, go and check!"
-            )
-        except BadRequest as e:
-            LOGGER.warning(e.message)
-    start_handler = CommandHandler("start", start, run_async=True)
-
-    help_handler = CommandHandler("help", get_help, run_async=True)
-    help_callback_handler = CallbackQueryHandler(
-        help_button, pattern=r"help_.*", run_async=True
-    )
-
-    settings_handler = CommandHandler("settings", get_settings, run_async=True)
-    settings_callback_handler = CallbackQueryHandler(
-        settings_button, pattern=r"stngs_", run_async=True
-    )
-
-    about_callback_handler = CallbackQueryHandler(
-        daxxabout_callback, pattern=r"daxx", run_async=True
-    )
-    source_callback_handler = CallbackQueryHandler(
-        Source_about_callback, pattern=r"source_", run_async=True
-    )
-    music_callback_handler = CallbackQueryHandler(
-        Music_about_callback, pattern=r"Music_",run_async=True
-    )
-    DAXXROBOT_main_handler = CallbackQueryHandler(
-        DAXXROBOT_Main_Callback, pattern=r".*_help",run_async=True)
-    donate_handler = CommandHandler("donate", donate)
-    migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
-    dispatcher.add_handler(start_handler)
-    dispatcher.add_handler(help_handler)
-    dispatcher.add_handler(about_callback_handler)
-    dispatcher.add_handler(music_callback_handler)
-    dispatcher.add_handler(settings_handler)
-    dispatcher.add_handler(help_callback_handler)
-    dispatcher.add_handler(settings_callback_handler)
-    dispatcher.add_handler(migrate_handler)
-    dispatcher.add_handler(donate_handler)
-    dispatcher.add_handler(DAXXROBOT_main_handler)
-    dispatcher.add_error_handler(error_callback)
-    dispatcher.add_handler(source_callback_handler)
-    LOGGER.info("Naruto robot depoly successfully 💖")
-    updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
-
+    
     if len(argv) not in (1, 3, 4):
         telethn.disconnect()
     else:
@@ -222,4 +147,3 @@ if __name__ == "__main__":
     LOGGER.info("Successfully loaded naruto robot modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     pbot.start()
-    main()
