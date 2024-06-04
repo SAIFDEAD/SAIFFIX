@@ -68,34 +68,8 @@ def get_readable_time(seconds: int) -> str:
 
 
     def main():
-    global x
-    x=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            text="❣️ 𝐀𝙳𝙳 𝙼𝐞 𝐁𝙰𝙱𝚈 ❣️",
-                            url="https:/t.me/HINATA_N_ROBOT?startgroup=true"
-                            )
-                       ]
-                ]
-                     )
-    if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
-        try:
-            dispatcher.bot.send_photo(
-                f"@BOTSUPPORT_CHAT",
-                photo=f"{START_IMG}",
-                caption=f"""
-✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
-━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ Βy**[Dιcтaтor](https://t.me/SAIF_DICTATOR)
-**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
-**ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
-**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
-**ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ:** `{pyrover}`
-━━━━━━━━━━━━━
-""",reply_markup=x,
-                parse_mode=ParseMode.MARKDOWN,
-            )
+
+
         except Unauthorized:
             LOGGER.warning(
                 f"Bot isn't able to send message to @{SUPPORT_CHAT}, go and check!"
