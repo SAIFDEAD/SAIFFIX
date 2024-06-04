@@ -133,7 +133,9 @@ def migrate_chats(update: Update, context: CallbackContext):
 
     LOGGER.info("Successfully migrated naruto robot !")
     raise DispatcherHandlerStop
-
+    
+    LOGGER.info("Naruto robot depoly successfully 💖")
+    updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
     
     if len(argv) not in (1, 3, 4):
         telethn.disconnect()
