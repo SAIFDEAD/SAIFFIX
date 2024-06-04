@@ -262,9 +262,6 @@ def error_callback(update: Update, context: CallbackContext):
         print(error)
         # handle all other telegram related errors
 
-
-def help_button(update, context):
-
 def daxxabout_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "daeeffsxx":
